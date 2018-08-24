@@ -1,0 +1,94 @@
+.background-image{
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: background-image 1s;
+}
+.background-overlay{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.header{
+    padding: 10px 8px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+}
+.center-container{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    z-index: 3;
+    width: 300px;
+    height: 250px;
+    border-radius: 3px;
+    background-color: #FFF;
+    margin-left: -150px;
+    margin-top: -125px;
+}
+.password-output{
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button-container {
+    position: absolute;
+    bottom: 0;
+}
+.br-0{
+    border-radius: 0px;
+}
+.clipboard{
+    position: fixed;
+    left: -9999px;
+}
+.success-message,.pass-explaination-message{
+    overflow: hidden;
+    background-color: #222;
+    text-align: center;
+    color: #FFF;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-sizing: border-box;
+    height: 0;
+    line-height: 2rem;
+}
+.success-message.toggle,.pass-explaination-message.toggle{
+    height: 2rem;    
+}
+.pass-explaination-container{
+    position: fixed;
+    left: 50%;
+    margin-left: 155px;
+    width: calc(50% - 155px);
+    height: 100%;
+    top: 0px;
+    z-index: 2;
+    background-color: #FFF;
+    overflow-y: scroll;
+    display: none;
+}
+.pass-explaination{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.pass-explaination .item{
+    padding: 8px 4px;
+    border-bottom: 1px solid #DDD;
+}

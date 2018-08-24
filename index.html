@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>PassPro</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css?v=1.0.0.5">
+        <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/scripts.js?v=1.0.0.8"></script>
+
+    </head>
+
+    <body>
+        <div id="background-image" class="background-image"></div>
+        <div class="background-overlay"></div>
+        <div class="center-container">
+            <div class="header">PassPro</div>
+            <div class="password-output" id="password-output"></div>
+            <input type="text" id="clipboard" class="clipboard" />
+            <div class="button-container w-100">
+                <div class="success-message" id="success-message">Copied to clipboard</div>
+                <div class="btn-group d-flex bg-primary">
+                    <button class="btn btn-primary w-50 br-0" id="password-generate-simple">
+                        Simple
+                    </button>
+                    <button class="btn btn-primary w-50 br-0" id="password-generate-hard">
+                        Hard
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="pass-explaination-container">
+            <div class="pass-explaination" id="pass-explaination">
+
+            </div>
+            <div class="pass-explaination-message" id="pass-explaination-message">Copied to clipboard</div>
+        </div>
+
+    </body>
+
+</html>
