@@ -92,3 +92,17 @@
     padding: 8px 4px;
     border-bottom: 1px solid #DDD;
 }
+
+.in{
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	text-decoration:none;
+	color:white;
+	z-index:4;	
+}
+
+.in:hover{
+	text-decoration:none;
+	color:white;
+}
