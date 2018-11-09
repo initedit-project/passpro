@@ -82,18 +82,18 @@ function initPasswordEntity() {
     var nutsNames = ['Almond', 'Apricot', 'Areca nut', 'Cantaloupe', 'Cashew', 'Chestnut', 'Coconut', 'Cuddapah almond', 'Zante currant', 'Date palm', 'Common fig', 'Flax', 'Peanut', 'Walnut', 'Pine nut', 'Pistachio', 'Prune', 'Pumpkin seed', 'Saffron', 'Sesame'];
 
     var technicalNames1 = ['Terminal', 'Place', 'Sun', 'Air', 'Help', 'path', 'other', 'option', 'sunday'];
-    technicalNames1.concat(['Watt', 'What', 'How', 'View', 'Ice', 'Water', 'Empty', 'Fridge', 'Magnet', 'Monday', 'Tuesday', 'Wednesday']);
-    technicalNames1.concat(['Palace', 'Moon', 'Orbit', 'Robot', 'Terminator', 'Transformer', 'Swap', 'Panther']);
-    technicalNames1.concat(['Laptop', 'Smartphone', 'Mobile', 'Tablet', 'Earphone', 'Headphone', 'Keys', 'Keyboard', 'Board']);
-    technicalNames1.concat(['Cube', 'Red', 'Green', 'White', 'Blue', 'Yellow', 'Orange', 'Black']);
-    technicalNames1.concat(['Power', 'Bank', 'Account', 'Solve']);
-    technicalNames1.concat(['Mouse', 'Cat', 'Dog', 'Snake']);
-    technicalNames1.concat(['Vision', 'Window', 'Kali', 'Init', 'Edit', 'Music', 'Video']);
-    technicalNames1.concat(['Friends', 'Inception', 'Godfather', 'Batman', 'Superman', 'Spider', 'Ironman', 'Arrow', 'Bow']);
-    technicalNames1.concat(['Jordon', 'Sheldon', 'Cooper', 'Big', 'Bang', 'Theory']);
-    technicalNames1.concat(['Money', 'Rupee', 'Doller', 'Bitcoin', 'Bit', 'Byte', 'Coin']);
-    technicalNames1.concat(['Think', 'Grow', 'Reach', 'Rich', 'Ultra']);
-    technicalNames1.concat("test,next,rat,mat,pat,yellow,red,green,orange,pink,dog,cat,rain,rent,car,bike,polo,yes,no,gole,excel,apple,ball,roger,fire,fly,home,end,start,page,up,down,left,right,life,tree,trek,hike,hack,text,file,edit,search,run,tool,window,save,ok,good,bad,better,upper,cut,copy,paste,lime,star,mars,earth,rocket,gift,word,work,world,fifa,foot,football,cap,eat,food,rat,mat,white,set,morning,night,after,noon,moon,sun,pluto,saturn,second,radius,planet,over,solar,tonight,size,rock,rocket,lower,produce,random,range,hope".split(","))
+    technicalNames1 = technicalNames1.concat(['Watt', 'What', 'How', 'View', 'Ice', 'Water', 'Empty', 'Fridge', 'Magnet', 'Monday', 'Tuesday', 'Wednesday']);
+    technicalNames1 = technicalNames1.concat(['Palace', 'Moon', 'Orbit', 'Robot', 'Terminator', 'Transformer', 'Swap', 'Panther']);
+    technicalNames1 = technicalNames1.concat(['Laptop', 'Smartphone', 'Mobile', 'Tablet', 'Earphone', 'Headphone', 'Keys', 'Keyboard', 'Board']);
+    technicalNames1 = technicalNames1.concat(['Cube', 'Red', 'Green', 'White', 'Blue', 'Yellow', 'Orange', 'Black']);
+    technicalNames1 = technicalNames1.concat(['Power', 'Bank', 'Account', 'Solve']);
+    technicalNames1 = technicalNames1.concat(['Mouse', 'Cat', 'Dog', 'Snake']);
+    technicalNames1 = technicalNames1.concat(['Vision', 'Window', 'Kali', 'Init', 'Edit', 'Music', 'Video']);
+    technicalNames1 = technicalNames1.concat(['Friends', 'Inception', 'Godfather', 'Batman', 'Superman', 'Spider', 'Ironman', 'Arrow', 'Bow']);
+    technicalNames1 = technicalNames1.concat(['Jordon', 'Sheldon', 'Cooper', 'Big', 'Bang', 'Theory']);
+    technicalNames1 = technicalNames1.concat(['Money', 'Rupee', 'Doller', 'Bitcoin', 'Bit', 'Byte', 'Coin']);
+    technicalNames1 = technicalNames1.concat(['Think', 'Grow', 'Reach', 'Rich', 'Ultra']);
+    technicalNames1 = technicalNames1.concat("test,next,rat,mat,pat,yellow,red,green,orange,pink,dog,cat,rain,rent,car,bike,polo,yes,no,gole,excel,apple,ball,roger,fire,fly,home,end,start,page,up,down,left,right,life,tree,trek,hike,hack,text,file,edit,search,run,tool,window,save,ok,good,bad,better,upper,cut,copy,paste,lime,star,mars,earth,rocket,gift,word,work,world,fifa,foot,football,cap,eat,food,rat,mat,white,set,morning,night,after,noon,moon,sun,pluto,saturn,second,radius,planet,over,solar,tonight,size,rock,rocket,lower,produce,random,range,hope".split(","))
 
     addToWordList("ANIMALS", "planet.jpg", animalNames, commonWords);
     addToWordList("PLANETS", "planet.jpg", commonPlanetWords, planetNames);
