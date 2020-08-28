@@ -1,0 +1,7 @@
+version: "3"
+services:
+  passpro:
+    build: .
+    container_name: passpro
+    ports:
+      - 80:80
